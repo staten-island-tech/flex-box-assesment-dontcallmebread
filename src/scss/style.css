@@ -1,12 +1,27 @@
-.first-flex {
+.flex-parent-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  border: 10rem solid goldenrod;
+}
+
+#picture1 {
+  height: 15rem;
+  width: auto;
+}
+
+#picture2 {
+  height: 15rem;
+  width: auto;
+}
+
+#picture3 {
+  height: 15rem;
+  width: auto;
+}
+
+#picture4 {
+  height: 15rem;
+  width: auto;
 }
 /*# sourceMappingURL=style.css.map */

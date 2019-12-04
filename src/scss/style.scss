@@ -1,10 +1,28 @@
 $colors:(
-    primary: #9C27B0
+    primary: #9C27B0,
+
 );
 
-.first-flex{
+body{
+    background-color: #9C27B0;
+}
+
+.container{
+    padding: 5rem 30rem;
+}
+
+.container2{
+    padding: 30rem 30rem;
+}
+
+.flex-parent-1{
     display: flex;
+    border: 0.25rem solid black;
     justify-content: center;
-    align-items: center;
 };
 
+.pic{
+    height: 15rem;
+    width: 15rem;
+    border: 0.4rem solid gold;
+}
