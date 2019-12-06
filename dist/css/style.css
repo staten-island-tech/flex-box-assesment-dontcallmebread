@@ -1,14 +1,6 @@
-/* @import"./_variables.scss"; */
-body {
-  background-color: #9C27B0;
-}
-
+/*  @import"./_variables.scss";  */
 .first {
-  padding: 5rem 30rem;
-}
-
-.second {
-  padding: 1rem 25rem;
+  padding: 5rem 10rem;
 }
 
 .flex-parent-1 {
@@ -21,26 +13,60 @@ body {
           justify-content: center;
 }
 
+.pic {
+  height: 25rem;
+  width: 25rem;
+  border: 0.4rem solid silver;
+}
+
+.second {
+  padding: 5rem 8rem;
+}
+
 .flex-parent-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 0.25rem solid white;
+  border: 0.25rem solid black;
   height: 50rem;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.pic {
-  height: 15rem;
-  width: 15rem;
-  border: 0.4rem solid silver;
-}
-
-.flex-child {
+.flex-child1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   border: 0.25rem solid #D32F2F;
   height: auto;
-  width: 17rem;
+  width: 25%;
+}
+
+.flex-child2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0.25rem solid gold;
+  height: auto;
+  width: 25%;
+}
+
+.flex-child3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0.25rem solid darkblue;
+  height: auto;
+  width: 25%;
+}
+
+.flex-child4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0.25rem solid darkgreen;
+  height: auto;
+  width: 25%;
 }
 /*# sourceMappingURL=style.css.map */
