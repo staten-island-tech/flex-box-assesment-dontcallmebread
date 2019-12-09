@@ -1,4 +1,8 @@
-/*  @import"./_variables.scss";  */
+/* @import"./_variables.scss";   */
+body {
+  background-color: #d597ce;
+}
+
 .first {
   padding: 5rem 10rem;
 }
@@ -27,9 +31,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 0.25rem solid black;
   height: 50rem;
-  width: 100%;
+  max-width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -68,5 +71,33 @@
   border: 0.25rem solid darkgreen;
   height: auto;
   width: 25%;
+}
+
+.mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.text {
+  font-size: 0.82rem;
+  height: 20rem;
+  width: 30rem;
+}
+
+.flex-parent-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-photo {
+  height: 20rem;
+  width: 20rem;
+  padding: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

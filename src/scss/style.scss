@@ -1,7 +1,7 @@
-/*  @import"./_variables.scss";  */
+/* @import"./_variables.scss";   */
 
-.all{
-
+body{
+    background-color: #d597ce;
 }
 
 .first{
@@ -26,9 +26,8 @@
 
 .flex-parent-2{
     display: flex;
-    border: 0.25rem solid black;
     height: 50rem;
-    width: 100%;
+    max-width: 100%;
     justify-content: space-around;
 };  
 
@@ -59,3 +58,25 @@
     height: auto;
     width: 25%;
 };
+
+.mini{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+   font-size: 0.82rem;
+   height: 20rem;
+   width: 30rem;
+}
+
+.flex-parent-4{
+    display: flex;
+
+}
+
+.flex-photo{
+    height: 20rem;
+    width: 20rem;
+    padding: 1rem;
+}
