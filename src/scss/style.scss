@@ -65,18 +65,28 @@ body{
 }
 
 .text{
-   font-size: 0.82rem;
-   height: 20rem;
-   width: 30rem;
-}
-
-.flex-parent-4{
     display: flex;
-
+    color: #000272;
+    font-size: 0.7rem;
+    height: 25rem;
 }
 
-.flex-photo{
-    height: 20rem;
-    width: 20rem;
-    padding: 1rem;
+.ginerva{
+    display: flex;
+    width: 38rem;
+}
+
+#ginny{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.granger{
+    display: flex;
+    width: 38rem;
+}
+
+.lovegood{
+    display: flex;
+    width: 38rem;
 }
