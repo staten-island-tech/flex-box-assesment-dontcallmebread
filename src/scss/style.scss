@@ -1,18 +1,28 @@
-/* @import"./_variables.scss";   */
+@import"./_variables.scss";   
 
 body{
-    background-color: #d597ce;
-}
+    background-color: rgba(color(light-primary), 1.0)
+};
 
 .first{
     padding: 5rem 10rem;
-};
+    margin-bottom: 10rem;
+}; 
 
 .flex-parent-1{
     display: flex;
     border: 0.25rem solid gray;
     justify-content: center;
 };
+
+.mid{
+    display: flex;
+}
+
+#sorting-hat{
+    height: 30rem;
+    width: 10rem;
+}
 
 .pic{
     height: 25rem;
@@ -22,13 +32,14 @@ body{
 
 .second{
     padding: 5rem 8rem;
+    margin-top: 15rem;
 };
 
 .flex-parent-2{
     display: flex;
     height: 50rem;
     max-width: 100%;
-    justify-content: space-around;
+    margin-top: 100rem;
 };  
 
 .flex-child1{
@@ -66,9 +77,10 @@ body{
 
 .text{
     display: flex;
-    color: #000272;
+    color: rgba(color( #000272), 1.0); 
     font-size: 0.7rem;
     height: 25rem;
+    margin-right: 1rem;
 }
 
 .ginerva{
@@ -77,7 +89,7 @@ body{
 }
 
 #ginny{
-    margin-left: 0.5rem;
+    margin-left: 3rem;
     margin-right: 0.5rem;
 }
 
@@ -86,7 +98,17 @@ body{
     width: 38rem;
 }
 
+#hermione{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
 .lovegood{
     display: flex;
     width: 38rem;
+}
+
+#luna{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
 }

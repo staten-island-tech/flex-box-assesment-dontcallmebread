@@ -90,6 +90,7 @@ body {
   color: #000272;
   font-size: 0.7rem;
   height: 25rem;
+  margin-right: 1rem;
 }
 
 .ginerva {
@@ -100,7 +101,7 @@ body {
 }
 
 #ginny {
-  margin-left: 0.5rem;
+  margin-left: 1rem;
   margin-right: 0.5rem;
 }
 
@@ -111,10 +112,20 @@ body {
   width: 38rem;
 }
 
+#hermione {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
+
 .lovegood {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 38rem;
+}
+
+#luna {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */

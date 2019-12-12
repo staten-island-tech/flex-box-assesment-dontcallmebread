@@ -1,5 +1,10 @@
-/* $colors:(
+$colors:(
     primary: #9C27B0,
     light-primary: #d597ce,
-    dark-primary: #833471
-);  */
+    dark-primary: #833471,
+    secondary: #000272
+);
+
+@function color($color-name){
+    @return map-get($colors, $color-name)
+}
