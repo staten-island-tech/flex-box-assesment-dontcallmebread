@@ -1,4 +1,3 @@
-/* @import"./_variables.scss";   */
 body {
   background-color: #d597ce;
 }
@@ -24,7 +23,7 @@ body {
 }
 
 .second {
-  padding: 5rem 8rem;
+  padding: 5rem 5rem;
 }
 
 .flex-parent-2 {
@@ -33,8 +32,8 @@ body {
   display: flex;
   height: 50rem;
   max-width: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .flex-child1 {
@@ -81,6 +80,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-top: 5rem;
 }
 
 .text {
@@ -88,7 +88,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   color: #000272;
-  font-size: 0.7rem;
+  font-size: 0.87rem;
   height: 25rem;
   margin-right: 1rem;
 }
@@ -103,6 +103,11 @@ body {
 #ginny {
   margin-left: 1rem;
   margin-right: 0.5rem;
+}
+
+#ginnypic {
+  height: 25rem;
+  width: auto;
 }
 
 .granger {
