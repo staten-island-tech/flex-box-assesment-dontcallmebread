@@ -84,6 +84,7 @@ body {
 }
 
 .text {
+<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,12 +112,20 @@ body {
 }
 
 .granger {
+=======
+  font-size: 0.82rem;
+  height: 20rem;
+  width: 30rem;
+}
+
+.flex-parent-4 {
+>>>>>>> parent of 07473ca... good
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 38rem;
 }
 
+<<<<<<< HEAD
 #hermione {
   margin-left: 1rem;
   margin-right: 0.5rem;
@@ -127,6 +136,12 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 38rem;
+=======
+.flex-photo {
+  height: 20rem;
+  width: 20rem;
+  padding: 1rem;
+>>>>>>> parent of 07473ca... good
 }
 
 #luna {
