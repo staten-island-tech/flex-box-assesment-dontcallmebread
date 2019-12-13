@@ -6,7 +6,6 @@ body{
 
 .first{
     padding: 5rem 10rem;
-    margin-bottom: 10rem;
 }; 
 
 .flex-parent-1{
@@ -15,15 +14,6 @@ body{
     justify-content: center;
 };
 
-.mid{
-    display: flex;
-}
-
-#sorting-hat{
-    height: 30rem;
-    width: 10rem;
-}
-
 .pic{
     height: 25rem;
     width: 25rem;
@@ -31,15 +21,15 @@ body{
 };
 
 .second{
-    padding: 5rem 8rem;
-    margin-top: 15rem;
+    padding: 5rem 5rem;
 };
 
 .flex-parent-2{
     display: flex;
     height: 50rem;
     max-width: 100%;
-    margin-top: 100rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 };  
 
 .flex-child1{
@@ -73,15 +63,16 @@ body{
 .mini{
     display: flex;
     flex-direction: row;
-}
+    margin-top: 5rem;
+};
 
 .text{
     display: flex;
-    color: rgba(color( #000272), 1.0); 
-    font-size: 0.7rem;
+    color: #000272; 
+    font-size: 0.87rem;
     height: 25rem;
     margin-right: 1rem;
-}
+} 
 
 .ginerva{
     display: flex;
@@ -89,8 +80,13 @@ body{
 }
 
 #ginny{
-    margin-left: 3rem;
+    margin-left: 1rem;
     margin-right: 0.5rem;
+}
+
+#ginnypic{
+    height: 25rem;
+    width: auto;
 }
 
 .granger{
@@ -112,3 +108,4 @@ body{
     margin-left: 1rem;
     margin-right: 0.5rem;
 }
+ 
