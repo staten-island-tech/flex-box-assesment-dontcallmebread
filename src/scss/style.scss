@@ -63,48 +63,55 @@ body{
 .mini{
     display: flex;
     flex-direction: row;
-    margin-top: 5rem;
 };
-
+ 
 .text{
     display: flex;
-    color: #000272; 
-    font-size: 0.87rem;
-    height: 25rem;
-    width: auto;
-    margin-right: 1rem;
-} 
+    font-size: 0.9rem;
+};
 
-.flex-parent-4{
+.ginerva{
     display: flex;
+};
 
 #ginny{
-    margin-left: 1rem;
-    margin-right: 0.5rem;
-}
+    height: auto;
+    width: 14rem;
+};
 
 #ginnypic{
     height: 25rem;
     width: auto;
-}
+    padding: 1rem;
+};
 
 .granger{
     display: flex;
-    width: 38rem;
-}
+};
 
 #hermione{
-    margin-left: 1rem;
-    margin-right: 0.5rem;
-}
+    height: auto;
+    width: 14rem;
+};
+
+#hermionepic{
+    height: 25rem;
+    width: auto;
+    padding: 1rem;
+};
 
 .lovegood{
     display: flex;
-    width: 38rem;
-}
+};
 
 #luna{
-    margin-left: 1rem;
-    margin-right: 0.5rem;
-}
- 
+    height: auto;
+    width: 14rem;
+};
+
+#lunapic{
+    height: 25rem;
+    width: auto;
+    padding: 1rem;
+};
+

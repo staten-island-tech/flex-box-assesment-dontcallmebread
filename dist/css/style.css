@@ -80,72 +80,63 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 5rem;
 }
 
 .text {
-<<<<<<< HEAD
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #000272;
-  font-size: 0.87rem;
-  height: 25rem;
-  margin-right: 1rem;
+  font-size: 0.9rem;
 }
 
 .ginerva {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 38rem;
 }
 
 #ginny {
-  margin-left: 1rem;
-  margin-right: 0.5rem;
+  height: auto;
+  width: 14rem;
 }
 
 #ginnypic {
   height: 25rem;
   width: auto;
+  padding: 1rem;
 }
 
 .granger {
-=======
-  font-size: 0.82rem;
-  height: 20rem;
-  width: 30rem;
-}
-
-.flex-parent-4 {
->>>>>>> parent of 07473ca... good
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-<<<<<<< HEAD
 #hermione {
-  margin-left: 1rem;
-  margin-right: 0.5rem;
+  height: auto;
+  width: 14rem;
+}
+
+#hermionepic {
+  height: 25rem;
+  width: auto;
+  padding: 1rem;
 }
 
 .lovegood {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 38rem;
-=======
-.flex-photo {
-  height: 20rem;
-  width: 20rem;
-  padding: 1rem;
->>>>>>> parent of 07473ca... good
 }
 
 #luna {
-  margin-left: 1rem;
-  margin-right: 0.5rem;
+  height: auto;
+  width: 14rem;
+}
+
+#lunapic {
+  height: 25rem;
+  width: auto;
+  padding: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
